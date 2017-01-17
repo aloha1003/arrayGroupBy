@@ -1,0 +1,20 @@
+{
+  "authors": [
+    {
+      "email": "guru1003@gmail.com",
+      "name": "John",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "classes"
+    ]
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/aloha1003/arrayGroupBy.git"
+    }
+  ]
+}
