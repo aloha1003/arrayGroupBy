@@ -1,6 +1,9 @@
 {
   "name" : "aloha1003/arraygroupby",
-  "version":"0.1",
+  "version":"dev-master",
+  "description" : " do array group、operate like RDBMS operate",
+  "keywords": ["array", "Group"],
+  "license": "MIT",
   "authors": [
     {
       "email": "guru1003@gmail.com",
@@ -9,9 +12,9 @@
     }
   ],
   "autoload": {
-    "classmap": [
-      "classes"
-    ]
+      "psr-0" : {
+          "aloha1003\\arraygroupby" : "src"
+      }
   },
   "repositories": [
     {
